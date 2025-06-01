@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indlia Refrigerators</title>
+    <title>Indlia Refrigations</title>
     <style>
         body {
             margin: 0;
@@ -12,6 +12,27 @@
             background: url('https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
             background-size: cover;
             color: #fff;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        header, .container {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        select:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
         }
 
         header {
@@ -24,12 +45,6 @@
         header h1 {
             color: gold;
             font-size: 2.5em;
-        }
-
-        .logo {
-            display: block;
-            margin: 10px auto;
-            max-width: 150px;
         }
 
         .container {
@@ -61,6 +76,8 @@
             text-decoration: none;
             font-weight: bold;
             margin-top: 20px;
+            animation: pulse 2s infinite;
+            transition: background-color 0.3s ease;
         }
 
         footer {
@@ -81,7 +98,6 @@
 <body>
 
 <header>
-    <img src="baba-ramadev-logo.png" alt="Baba Ramadev Logo" class="logo">
     <h1>INDLIA REFRIGERATORS</h1>
 </header>
 
@@ -119,7 +135,7 @@
 
 <footer>
     <p>SHOP ADDRESS ⚠️:- J D A COLONY SANGANER JAIPUR</p>
-    <p>HOME ADDRESS ⚠️:- INDIRA COLONY NEAR RS MEMORIAL SCHOOL</p>
+    <p>HOME ADDRESS ⚠️:- INDIRA COLONY NEAR RS MEMORIAL SCHOOL (RAJGARH CHURU)</p>
     <p>WARNING ⚠️:- INSTANT PAYMENT NEEDED</p>
 </footer>
 
