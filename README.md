@@ -98,7 +98,7 @@
 <body>
 
 <header>
-    <h1>INDLIA REFRIGERATORS</h1>
+    <h1>INDLIA REFRIGATIONS</h1>
 </header>
 
 <div class="container">
@@ -135,7 +135,7 @@
 
 <footer>
     <p>SHOP ADDRESS ⚠️:- J D A COLONY SANGANER JAIPUR</p>
-    <p>HOME ADDRESS ⚠️:- INDIRA COLONY NEAR RS MEMORIAL SCHOOL (RAJGARH CHURU)</p>
+    <p>HOME ADDRESS ⚠️:- INDIRA COLONY NEAR RS MEMORIAL SCHOOL, RAJGARH SADULPUR</p>
     <p>WARNING ⚠️:- INSTANT PAYMENT NEEDED</p>
 </footer>
 
